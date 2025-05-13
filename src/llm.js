@@ -1,6 +1,6 @@
 import OpenAI from 'openai';
 import dotenv from 'dotenv';
-import { createPrompt } from './prompts.js';
+import { createPrompt } from './prompt.js';
 dotenv.config();
 
 const openai = new OpenAI({
